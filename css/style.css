@@ -1,7 +1,9 @@
+/*this section will give the website it's entire background color*/
 body{
     background-color: #0074BD;
 }
 
+/*this section customizes the first two headers on the webpage*/
 header {
     text-align: center;
     font-size: 32.5pt;
@@ -9,8 +11,84 @@ header {
     color: #31BB13;
 }
 
+/*this section customizes the hero section; the avatar and intro paragraph*/
 #hero {
-    font-size: 17.5pt;
+    font-size: 14.5pt;
     font-family: Arial Bold;
+    font-weight: bold;
+    color: #6E006E;
 }
+
+/*this section customizes the each h3 header on the webpage*/
+h3 {
+    text-align: center;
+    text-decoration: underline;
+    font-size: 22.5pt;
+    font-family: Impact;
+    color: #31BB13;
+    letter-spacing: 1pt;
+}
+
+/*this section customizes the general portfolio section*/
+#portfolio {
+    text-align: center;
+    font-size: 16.5pt;
+    font-weight: bold;
+    color: #6E006E;
+    list-style-position:inside;
+}
+
+/*this section customizes the ordered list of the portfolio section*/
+#portfolio ol {
+    border-style: dashed;
+    border-color: black;
+    height: 105pt;
+    width: 145pt;
+    border-radius: 35pt;
+    margin: 0 auto;
+    padding: 10pt;
+}
+
+/*this section customizes the  odds on the ordered list of the portfolio section*/
+#portfolio ol li:nth-child(odd) {
+    color: #FF8E00;
+    font-style: italic;
+}
+
+/*this section customizes the evens on the ordered list of the portfolio section*/
+#portfolio ol li:nth-child(even) {
+    color: white;
+    font-style: oblique;
+}
+
+/*this section customizes general things in the reviews section section*/
+#reviews {
+    text-align: left;
+    font-size: 16.5pt;
+    font-weight: bold;
+    list-style-position:outside;
+    line-height: 22.5pt;
+}
+
+/*this section customizes the  odds on the ordered list of the reviews section*/
+#reviews ul li:nth-child(odd) {
+    color: black;
+    list-style-type: square;
+
+}
+
+/*this section customizes the  odds on the ordered list of the reviews section*/
+#reviews ul li:nth-child(even) {
+    color: white;
+    list-style-type: circle;
+}
+
+/*this section customizes the footer section*/
+
+footer {
+    color: #6E006E;
+    font-size: 9.5pt;
+}
+
+
 
